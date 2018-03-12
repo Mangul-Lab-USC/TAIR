@@ -26,7 +26,7 @@ for line in reader:
 
 #output
 file=open("curated.metadata.RNASeq.samples.8555.csv","w")
-file.write("fileName,sample,individual,tissue,raw.single.reads")
+file.write("fileName,sample,individual,tissue,raw.reads")
 file.write("\n")
 
 with open(updated_manifest, 'r') as f:
@@ -41,7 +41,7 @@ with open(updated_manifest, 'r') as f:
             sample=line[14]
             tissue=line[16]
             fileName=line[1]
-	    n_reads=int(int((line[10]))/75.0*1000000)	            
+	    n_reads=int(int((line[10]))/150*1000000)	            
             if sample in samples_8555:
                 file.write(fileName+","+sample+","+individual+","+tissue+","+str(n_reads))
                 file.write("\n")

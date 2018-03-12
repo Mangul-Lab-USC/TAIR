@@ -1,0 +1,50 @@
+import csv
+
+print "Open updated_manifest.csv take only RNA-Seq and make dictionaries"
+
+
+updated_manifest="updated_manifest.csv"
+
+individuals=set()
+tissues=set()
+samples=set()
+dict__sample__File_Name={}
+File_NameSet_RNASeq=set()
+dict__sample__body_site_s={}
+samplesSet=set()
+
+with open(updated_manifest, 'r') as f:
+    csvFile = csv.reader(f)
+    next(csvFile)
+    for line in csvFile:
+        
+        
+
+        if line[2]=="RNA-Seq":
+            individuals.add(line[24])
+            tissues.add(line[16])
+            samples.add(line[1])
+
+            dict__sample__File_Name[line[14]]=line[1]
+            samplesSet.add(line[14])
+            File_NameSet_RNASeq.add(line[1])
+
+            dict__sample__body_site_s[line[1]]=line[16]
+file=open("curated.metadata.RNASeq.samples.8555.csv","w")
+
+for i in File_NameSet_RNASeq:
+	file.write(i+","+dict__sample__body_site_s[i])
+	file.write("\n")
+
+
+#print tissues
+#print len(tissues)
+#print len(individuals)
+
+#print len(samples)
+
+
+
+
+
+

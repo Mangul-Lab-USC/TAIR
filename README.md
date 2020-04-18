@@ -1,9 +1,9 @@
-# The Atlas of Immunoglobulin Repertoires (TheAIR)
+# The Atlas of Immunoglobulin Repertoires (TAIR)
 
 
 ![](https://github.com/smangul1/TheAIR/blob/master/TheAIR.logo.png)
 
-## What is TheAIR
+## What is TAIR
 TheAIR is a collection of immunoglobulin (Ig) clonotypes across 53 tissues from 544 individuals. CDR3 sequences were assembled from by [ImReP](https://github.com/mandricigor/imrep/wiki) from 8555 RNA-Seq samples. Data was collected and prepared by Genotype-Tissue Expression ([GTEx](https://www.gtexportal.org/home/) v6) project. 
 TheAIR has one of the largest collection of CDR3 sequences (n=3.6 million) and tissue types (n=53). 
 
@@ -36,4 +36,4 @@ Slides from my talk at ASHG 2017 are available [here](https://sergheimangul.file
 
 # Contact 
 
-TheAIR was prepared by [Serghei Mangul](https://sergheimangul.wordpress.com/). Please do not hesitate to contact me (smangul@ucla.edu) if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource.
+TheAIR was prepared by [Serghei Mangul](https://sergheimangul.wordpress.com/). Please do not hesitate to contact me (serghei.mangul@gmail.com) if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource.

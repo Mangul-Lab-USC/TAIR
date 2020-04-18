@@ -29,11 +29,8 @@ Use the sidebar on the right to explore the database. We plan to update it frequ
 
 Mangul, Serghei, et al. ["Profiling adaptive immune repertoires across multiple human tissues by RNA Sequencing"](http://www.biorxiv.org/content/early/2017/03/25/089235) bioRxiv (2016): 089235. 
 
-# Presentations
-
-Slides from my talk at ASHG 2017 are available [here](https://sergheimangul.files.wordpress.com/2017/10/ashg_2017_public.pdf)
 
 
 # Contact 
 
-TheAIR was prepared by [Serghei Mangul](https://sergheimangul.wordpress.com/). Please do not hesitate to contact me (serghei.mangul@gmail.com) if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource.
+TAIR was prepared by [Serghei Mangul](https://sergheimangul.wordpress.com/). Please do not hesitate to contact me (serghei.mangul@gmail.com) if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource.
